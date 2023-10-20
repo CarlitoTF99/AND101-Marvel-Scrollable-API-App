@@ -1,17 +1,12 @@
-# Marvel-API-Scrollable
- Using RecyclerView with the Marvel API to make it scroll up and down while still displaying data.
-<!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
-
 # AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
-Submitted by: **Your Name Here**
+Submitted by: Jose Huertero
 
-Time spent: **X** hours spent in total
+Time spent: 9 hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
-
+Marvel API Scrollable is an android app that that retrieves three pieces of information from the Marvel API, an Image, Name, and Description. The app is scrollable and it displays 100 heroes in alphabetical order.
 If I had to describe this project in three (3) emojis, they would be: **emojis here**
 
 ## Application Features
@@ -20,25 +15,22 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] Make an API call to an API of your choice using AsyncHTTPClient
-- [ ] Implement a RecyclerView to display a list of entries from the API
-- [ ] Display at least three (3) pieces of data for each RecyclerView item
+- [x] Make an API call to an API of your choice using AsyncHTTPClient
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
 - [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
-- [ ] Add item dividers with `DividerItemDecoration`
+- [x] Show a `Toast` or `Snackbar` when an item is clicked
+- [x] Add item dividers with `DividerItemDecoration`
 
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve the app!
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://imgur.com/arbaiNn.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
 
