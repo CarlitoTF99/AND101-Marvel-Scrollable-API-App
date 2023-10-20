@@ -7,69 +7,16 @@
     android:background="@color/purple"
     tools:context="MainActivity">
 
-
-    <ImageView
-        android:id="@+id/imageS"
-        android:layout_width="365dp"
-        android:layout_height="253dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033" />
-
-    <EditText
-        android:id="@+id/charName"
-        android:layout_width="331dp"
-        android:layout_height="46dp"
-        android:hint="Type the name of a Marvel super-hero"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterButton"
-        app:layout_constraintVertical_bias="0.305" />
-
-    <Button
-        android:id="@+id/enterButton"
-        android:layout_width="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hero_recycleView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter"
-        android:background="@drawable/circle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="381dp"
-        android:layout_height="146dp"
-        android:textColor="@color/white"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/charName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageS"
-        app:layout_constraintVertical_bias="0.415" />
-
-    <TextView
-        android:id="@+id/displayedName"
-        android:layout_width="342dp"
-        android:layout_height="52dp"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/description"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageS"
-        app:layout_constraintVertical_bias="0.509" />
+        />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
