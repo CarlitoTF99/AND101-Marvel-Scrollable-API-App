@@ -36,9 +36,7 @@ My chosen API for this project is Marvel API.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/ckpYNrB.gif' title='Video Demo' width='' alt='Video Demo' />
-<img src='https://imgur.com/OfSXMbf.gif' title='Video Demo' width='' alt='Video Demo' />
-
+<img src='https://imgur.com/9LWUBaM.gif' title='Video Demo' width='' alt='Video Demo' />
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 
