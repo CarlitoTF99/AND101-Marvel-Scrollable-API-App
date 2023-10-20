@@ -30,7 +30,7 @@ The following STRETCH features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/arbaiNn.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://imgur.com/76LdJeg.gif' title='Video Demo' width='' alt='Video Demo' />
 <img src='https://imgur.com/OfSXMbf.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
