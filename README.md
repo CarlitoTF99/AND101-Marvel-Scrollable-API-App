@@ -48,8 +48,8 @@ GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-This project was very straigh foward, I just added new fonts to better git that commic look and I dowloaded them from google since the ones in the Android Studio library were not so good for my UI.
-I also added features to my themes and drawables to again, make it better fit the comic book look.
+This project was very straigh foward, I just added new fonts to better get that comic book look and I dowloaded them from google since the ones in the Android Studio library were not so good for my UI.
+I also added features to my themes, like colors, and I also added new drawables and applied them in to my layout.
 
 ## License
 
