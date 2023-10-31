@@ -18,11 +18,14 @@
 
     <TextView
         android:id="@+id/hero_NameText"
-        android:layout_width="229dp"
-        android:layout_height="31dp"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
         android:layout_marginTop="4dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/comic2"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="16dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -31,13 +34,13 @@
 
     <TextView
         android:id="@+id/hero_DescriptionText"
-        android:layout_width="228dp"
-        android:layout_height="193dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
+        android:layout_width="208dp"
+        android:layout_height="171dp"
+        android:fontFamily="@font/comic"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/hero_ima"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />

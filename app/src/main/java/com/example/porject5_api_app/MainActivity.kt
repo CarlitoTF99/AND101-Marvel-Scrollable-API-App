@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                     val name = heroObject.getString("name")
                     var description = heroObject.getString("description")
                     if(description.isEmpty()){
-                        description = "No Description for this hero"
+                        description = "No description for this character provided by the source."
                     }
 
                     val hero = Heroes(image, name, description)
